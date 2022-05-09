@@ -761,7 +761,7 @@ img {
   }
   
   .informacion {
-    display hidden;
+    display: none;
   }
 
   .gimnasio {
