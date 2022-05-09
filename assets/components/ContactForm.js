@@ -42,3 +42,5 @@ function contactForm() {
       });
   });
 }
+
+d.addEventListener("DOMContentLoaded", contactForm());
