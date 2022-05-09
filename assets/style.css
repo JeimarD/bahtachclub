@@ -232,7 +232,12 @@ img {
 }
 
 .informacion {
-display: none;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.informacion h2{
+  font-size: 2.5em;
 }
 
 .gimnasio {
@@ -753,6 +758,10 @@ display: none;
 
   .planes-cartas {
     display: none;
+  }
+  
+  .informacion {
+    display hidden;
   }
 
   .gimnasio {
