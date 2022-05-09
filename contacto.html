@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/assets/logo2.png" />
+    <title>Bahtach Club | Contacto</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2061a5cf4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <img href="#" src="assets/assets/logo3.png" alt="logo" />
+      <nav class="red-social">
+        <a
+          href="https://twitter.com/Jeimar_Diaz"
+          target="_blank"
+          class="fa-brands fa-twitter twitter"
+        ></a>
+        <a
+          href="https://www.facebook.com/jeimar.diazbello/"
+          target="_blank"
+          class="fa-brands fa-facebook-f face"
+        ></a>
+        <a
+          href="https://www.instagram.com/jeimar.db/"
+          target="_blank"
+          class="fa-brands fa-instagram instagram"
+        ></a>
+      </nav>
+      <nav class="nav-main">
+        <ul id="menu">
+          <li>
+            <a href="/index.html" class="btn-inicio" id="inicio">Inicio</a>
+          </li>
+          <li>
+            <a href="/contacto.html" class="btn-inicio" id="contacto"
+              >Contacto</a
+            >
+          </li>
+          <li>
+            <a href="/sobre-nosotros.html" class="btn-inicio" id="sobre-nosotros"
+              >Sobre Nosotros</a
+            >
+            <ul id="menu-desplegable">
+              <li><a href="/sobre-nosotros.html#vision">Visión</a></li>
+              <li><a href="/sobre-nosotros.html#equipo">Nuestro Equipo</a></li>
+              <li><a href="/sobre-nosotros.html#historia">Historia</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <button class="panel-btn hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <aside class="panel">
+       <nav class="menu-hamburguesa">
+        <ul id="menu_container">
+          <li><a href="/index.html" class="btn-inicio" id="inicio">Inicio</a></li>
+          <li><a href="/contacto.html" class="btn-inicio" id="contacto">Contacto</a></li>
+          <li>
+            <a href="/sobre-nosotros.html" class="btn-inicio" id="sobre-nosotros">Sobre Nosotros</a>
+          </li>
+        </ul>
+       </nav>
+    </aside>
+      <div class="contact-container">
+        <div class="contact-information">
+          <div class="ciudad">
+            <h2>Caracas</h2>
+            <div class="contact-content">
+              <div class="content-contact1">
+                <p>
+                  Blvr. Sabana Grande
+                  <br />
+                  1050
+                </p>
+
+                <p>
+                  <a href="mailto:jeimar1512@gmail.com">jeimar1512@gmail.com</a>
+                  <br />
+                  <a href="tel: 412 016 3315">+58 412 016 3315</a>
+                </p>
+
+                <ul class="contact-list">
+                  <li>Lunes: 07:00 - 21:00</li>
+                  <li>Martes: 07:00 - 21:00</li>
+                  <li>Miércoles: 07:00 - 21:00</li>
+                  <li>Jueves: 07:00 - 21:00</li>
+                  <li>Viernes: 07:00 - 21:00</li>
+                  <li>Sábado: 07:00 - 13:00</li>
+                  <li>Domingo: Cerrado</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form">
+          <div class="gform_wrapper">
+            <form class="form">
+              <div class="gform_body gform_body">
+                <ul class="gform_fields">
+                  <li class="gfield">
+                    <input
+                      id="input"
+                      type="text"
+                      name="name"
+                      autocomplete="off"
+                      title="El nombre solo acepta caracteres validos"
+                      pattern="^[A-Za-zÑñÁ-Úá-ú \\s]+$"
+                      required
+                    />
+                    <label for="name" class="gfield_label"> Nombre* </label>
+                  </li>
+                  <li class="gfield">
+                    <label for="apellido" class="gfield_label">
+                      Apellido*
+                    </label>
+                    <input
+                      type="text"
+                      name="apellido"
+                      title="El apellido solo acepta caracteres validos"
+                      pattern="^[A-Za-zÑñÁ-Úá-ú \\s]+$"
+                      autocomplete="off"
+                      required
+                    />
+                  </li>
+                  <li class="gfield">
+                    <label for="email" class="gfield_label"> Email* </label>
+                    <input
+                      type="text"
+                      name="email"
+                      title="Ingrese un correo electronico valido"
+                      pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                      autocomplete="off"
+                      required
+                    />
+                  </li>
+                  <li class="gfield">
+                    <label for="tlf" class="gfield_label"> Teléfono </label>
+                    <input type="text" name="tlf" autocomplete="off" title="Ingrese un numero de telefono valido" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$" required/>
+                  </li>
+                  <li class="gfield">
+                    <label for="options-select" class="gfield_label"
+                      >Selecciona un tópico*</label
+                    >
+                    <select name="topics" id="options-select" required>
+                      <option value="">...</option>
+                      <option value="personal">Entrenamiento personal</option>
+                      <option value="contacto-coach">
+                        Contacto directo con un coach
+                      </option>
+                      <option value="informacion">Solo información</option>
+                    </select>
+                  </li>
+                  <li class="gfield">
+                    <label for="textarea-input" class="gfield_label"
+                      >¿En qué podemos ayudarle?</label
+                    >
+                    <div class="textarea-container">
+                      <textarea
+                        name="textarea"
+                        id="textarea-input"
+                        data-pattern="^.{1,255}$"
+                        title="No se puede ingresar mas de 255 caracteres"
+                        aria-invalid="false"
+                        cols="50"
+                        rows="10"
+                      ></textarea>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="input-send">
+                <input type="submit" value="Enviar" />
+              </div>
+            </form>
+            <div class="contact_form_loader none">
+              <img src="/assets/assets/oval.svg" alt="Cargando...">
+            </div>
+            <div class="contact_form_response none">
+              <p>Los datos han sido enviados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/assets/components/contact-form.js"></script>
+    <script src="/assets/components/index.js" type="module"></script>
+  </body>
+</html>
