@@ -12,7 +12,7 @@ function contactForm() {
     $loader.classList.remove("none");
     $form.classList.add("none");
 
-    fetch("https://formsubmit.co/ajax/jeimar1512@gmail.com", {
+    fetch("https://formsubmit.co/ajax/3f203717cf31d73afbb23a5db335c4bb", {
       method: "POST",
       body: new FormData(e.target),
     })
