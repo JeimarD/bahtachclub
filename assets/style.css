@@ -610,7 +610,7 @@ display: none;
       rgba(16, 16, 16, 0.7),
       rgba(16, 16, 16, 0.9)
     ),
-    url(/assets/assets/portada.jpg);
+    url(assets/assets/portada.jpg);
   background-size: cover;
   background-position: 0 60%;
   height: 15vw;
